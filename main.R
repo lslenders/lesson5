@@ -5,6 +5,9 @@
 # -------------------------------------------------------
 
 ## setting working directory
+getwd()
+
+# set working directory to you own specifications!!
 setwd("D:/workspace/geoscripting/lesson5")
 
 ## Load source packages and functions.-------------------
