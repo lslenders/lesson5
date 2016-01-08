@@ -72,9 +72,9 @@ L5proc <- overlay(x = L5stack, y = L5cloud, fun = maskCloud)
 NDVI2014 <- overlay(L8proc[[1]], L8proc[[2]], fun=calcNDVI)
 NDVI1990 <- overlay(L5proc[[1]], L5proc[[2]], fun=calcNDVI)
 
-# # Check: NDVI plots.
-# plot(NDVI2014)
-# plot(NDVI1990)
+# # Check: NDVI plots for between 0-1 values
+hist(NDVI2014)
+hist(NDVI1990)
 
 # Temporal NDVI comparison.
 # Warning suppressed.
